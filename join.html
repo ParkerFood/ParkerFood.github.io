@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+		Website designed and Developed by Hunter Ball
+		Contact me at:
+		469-247-7904 
+		Hunter@HunterBall.net
+		-->
+		<title>Join Us | Parker Food Rescue</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header class = "header-fruit">
+			<h1>Join Us</h1>
+		</header>
+		<div class = "nav">
+			<p id = "menuButtonOpen" class = "left no-desktop">&#9776;</p>
+			<p class = "nav-logo no-desktop">Parker Food Rescue</p>
+			<span class = "no-mobile">
+				<a href = "index.html">Parker Food Rescue</a>
+				<div class = "dropdown">
+					<a href = "about.html">About &#9662;</a>
+					<div class = "content">
+						<a href = "team.html">The Team</a>
+					</div>
+				</div>
+				<div class = "dropdown">
+					<a href = "join.html">Join Us &#9662;</a>
+					<div class = "content">
+						<a href = "volunteer.html">Volunteer</a>
+						<a href = "donate.html">Donate</a>
+					</div>
+				</div>
+				<a href = "contact.html">Contact</a>
+			</span>
+		</div>
+		<div class = "nav-mobile no-desktop">
+			<a class = "close" id = "menuButtonClose">&#128473;</a>
+			<h2>Parker Food Rescue</h2>
+			<div class = "nav-break"><hr></div>
+			<a href = "index.html">Home</a>
+			<a href = "about.html">About</a>
+			<a href = "team.html">The Team</a>
+			<hr>
+			<a href = "join.html">Join Us</a>
+			<a href = "volunteer.html">Volunteer</a>
+			<a href = "donate.html">Donate</a>
+			<hr>
+			<a href = "contact.html">Contact</a>
+		</div>
+		<div class = "container white">
+			<div class = "half left">
+				<h2>Volunteering</h2>
+				<p>Need volunteer hours for school? Want to help give back to the Parker community? The Parker Food Rescue is a great choice for volunteering. It provides everyone with a fun and meaningful way to give back to the community, and can even teach you about healthier lifestyles! Contact us by clicking below to become a Parker Food Rescue volunteer, helping pick up food from grocery stores, or delivering food to our recipients!</p>
+				<a class = "button" href = "contact.html#form">Contact Us</a>
+			</div>
+			<div class = "half left">
+				<h2>Can't Volunteer? Donate!</h2>
+			<p>Donations help keep Parker Food Rescue operating, and with your donation, we'll be able to feed even more people! Please click below to our GoFundMe page, to donate!</p>
+			<a class = "button" href = "https://www.gofundme.com/help-start-parker-food-rescue">GoFundMe</a>
+			</div>
+			<div class = "clear"></div>
+		</div>
+		<div class = "container blue">
+			<h2>Become a Recipient, Distributor, or Food Donator</h2>
+			<p>If you are a organization that can help distribute fresh food to people of low income, or can give us fresh food to distribute, please contact us below. We would love to work with you to create a better community!</p>
+			<a class = "button" href = "contact.html#form">Contact Us</a>
+		</div>
+		<div class = "container white">
+			<img class = "half right" src = "images/FRA logo.png">
+			<div class = "half right">
+				<h2>Want to start your own food rescue?</h2>
+			<p>Creating your own food rescue isn't easy, but there are tons of resources to help you along the way. The Food Rescue Alliance is an amazing organization with a mission of helping food rescue organizations through peer to peer learning, consulting, and training.</p>
+			<a class = "button" href = "https://www.foodrescuealliance.org/start-your-own">FRA Start Your Own Program</a>
+			</div>
+			<div class = "clear"></div>
+		</div>
+		<footer>
+			<img class = "fourth" src = "images/PFR.jpg">
+			<h6 class = "footer-menu"><a href = "index.html">Home</a>  |  <a href = "about.html">About</a>  |  <a href = "join.html">Volunteering</a>  |  <a href = "contact.html">Contact</a> | <a href = "https://www.facebook.com/parkerfoodrescue">Facebook</a></h6>
+			<p class = "small">Website created by <a class = "small" href = "https://hunterball.net">Hunter Ball</a>. Header Image by <a class = "small" href='https://www.freepik.com/free-photo/fresh-fruits-and-vegetables_2073964.htm'>Freepik</a></p>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			$('#menuButtonOpen').click(function() {
+				$('.nav-mobile').addClass("active");
+			});
+			$("#menuButtonClose").click(function() {
+				$(".nav-mobile").removeClass("active");
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+		Website designed and Developed by Hunter Ball
+		Contact me at:
+		469-247-7904 
+		Hunter@HunterBall.net
+		-->
+		<title>Contact | Parker Food Rescue</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header class = "header-fruit">
+			<h1>Contact Us</h1>
+		</header>
+		<div class = "nav">
+			<p id = "menuButtonOpen" class = "left no-desktop">&#9776;</p>
+			<p class = "nav-logo no-desktop">Parker Food Rescue</p>
+			<span class = "no-mobile">
+				<a href = "index.html">Parker Food Rescue</a>
+				<div class = "dropdown">
+					<a href = "about.html">About &#9662;</a>
+					<div class = "content">
+						<a href = "team.html">The Team</a>
+					</div>
+				</div>
+				<div class = "dropdown">
+					<a href = "join.html">Join Us &#9662;</a>
+					<div class = "content">
+						<a href = "volunteer.html">Volunteer</a>
+						<a href = "donate.html">Donate</a>
+					</div>
+				</div>
+				<a href = "contact.html">Contact</a>
+			</span>
+		</div>
+		<div class = "nav-mobile no-desktop">
+			<a class = "close" id = "menuButtonClose">&#128473;</a>
+			<h2>Parker Food Rescue</h2>
+			<div class = "nav-break"><hr></div>
+			<a href = "index.html">Home</a>
+			<a href = "about.html">About</a>
+			<a href = "team.html">The Team</a>
+			<hr>
+			<a href = "join.html">Join Us</a>
+			<a href = "volunteer.html">Volunteer</a>
+			<a href = "donate.html">Donate</a>
+			<hr>
+			<a href = "contact.html">Contact</a>
+		</div>
+		<div class = "half left">
+			<h2>Contact the Parker Food Rescue</h2>
+			<p>If you have any comments, questions, or concerns, or would like to speak with us about opening up volunteering or partnership opportunities, please use the form on the page to contact us, or through our other various methods of communication. We promise to respond in a timely mannor, and help you with whatever you need!</p>
+			<p><em>We promise not to sell, distribute, or unlawfully use your information.</em></p>
+		</div>
+		<div class = "half left blue">
+			<form action = "https://formspree.io/roundnround01@gmail.com" method = "POST">
+				<h3>Contact Form</h3>
+				<input name = "name" type = "text" placeholder = "*Name" required>
+				<input name = "email" type = "email" placeholder = "*Email Address" required>
+				<input type = "text" name = "number" placeholder = "Phone Number">
+				<br>
+				<span>*I am...</span><br>
+				<select name = "type" required>
+					<option value = "volunteer">Possible Volunteer</option>
+					<option value = "recipient">Possible Food Recipient/Distributor</option>
+					<option value = "Supplier">Possible Food Supplier</option>
+					<option value = "other">Other</option>
+				</select>
+				<br><br>
+				<span>*Reason for contact:</span>
+				<input name = "content" type = "text" class = "large-text" required>
+				<input type="submit" name="Submit" id="submit" value="Submit" />
+			</form>
+		</div>
+		<div class = "clear"></div>
+		<footer>
+			<img class = "fourth" src = "images/PFR.jpg">
+			<h6 class = "footer-menu"><a href = "index.html">Home</a>  |  <a href = "about.html">About</a>  |  <a href = "join.html">Volunteering</a>  |  <a href = "contact.html">Contact</a> | <a href = "https://www.facebook.com/parkerfoodrescue">Facebook</a></h6>
+			<p class = "small">Website created by <a class = "small" href = "https://hunterball.net">Hunter Ball</a>. Header Image by <a class = "small" href='https://www.freepik.com/free-photo/fresh-fruits-and-vegetables_2073964.htm'>Freepik</a></p>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			$('#menuButtonOpen').click(function() {
+				$('.nav-mobile').addClass("active");
+			});
+			$("#menuButtonClose").click(function() {
+				$(".nav-mobile").removeClass("active");
+			});
+		</script>
+	</body>
+</html>

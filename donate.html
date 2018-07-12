@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+		Website designed and Developed by Hunter Ball
+		Contact me at:
+		469-247-7904 
+		Hunter@HunterBall.net
+		-->
+		<title>Donate | Parker Food Rescue</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header class = "header-fruit">
+			<h1>Donate</h1>
+		</header>
+		<div class = "nav">
+			<p id = "menuButtonOpen" class = "left no-desktop">&#9776;</p>
+			<p class = "nav-logo no-desktop">Parker Food Rescue</p>
+			<span class = "no-mobile">
+				<a href = "index.html">Parker Food Rescue</a>
+				<div class = "dropdown">
+					<a href = "about.html">About &#9662;</a>
+					<div class = "content">
+						<a href = "team.html">The Team</a>
+					</div>
+				</div>
+				<div class = "dropdown">
+					<a href = "join.html">Join Us &#9662;</a>
+					<div class = "content">
+						<a href = "volunteer.html">Volunteer</a>
+						<a href = "donate.html">Donate</a>
+					</div>
+				</div>
+				<a href = "contact.html">Contact</a>
+			</span>
+		</div>
+		<div class = "nav-mobile no-desktop">
+			<a class = "close" id = "menuButtonClose">&#128473;</a>
+			<h2>Parker Food Rescue</h2>
+			<div class = "nav-break"><hr></div>
+			<a href = "index.html">Home</a>
+			<a href = "about.html">About</a>
+			<a href = "team.html">The Team</a>
+			<hr>
+			<a href = "join.html">Join Us</a>
+			<a href = "volunteer.html">Volunteer</a>
+			<a href = "donate.html">Donate</a>
+			<hr>
+			<a href = "contact.html">Contact</a>
+		</div>
+		<div class = "container white">
+			<h2>Donate to The Parker Food Rescue</h2>
+			<p>Being a non-profit business means that we rely mostly on donations.  Any type of donation helps to bring another family a meal for the day.  We accept food donations as well as cash donations via Go Fund Me.  Our go fund me link can be found at the bottom of this page or on our contact information page.  Those who are willing to donate food can send us an email or call us to set up a date for the drops.  We understand that it is a lot to ask for a donation and that is why we want to make sure that you are recognized.  When you donate you will be given the option to be recognized for your efforts and we will add you to our donor list on our website.  As well as being added to the donor list we want to offer you the chance to come out and see what your money or food has been used and allow you to visit some of the people your donation has impacted.</p>
+			<a class = "button" href = "https://www.gofundme.com/help-start-parker-food-rescue">Donate</a>
+		</div>
+		<footer>
+			<img class = "fourth" src = "images/PFR.jpg">
+			<h6 class = "footer-menu"><a href = "index.html">Home</a>  |  <a href = "about.html">About</a>  |  <a href = "join.html">Volunteering</a>  |  <a href = "contact.html">Contact</a> | <a href = "https://www.facebook.com/parkerfoodrescue">Facebook</a></h6>
+			<p class = "small">Website created by <a class = "small" href = "https://hunterball.net">Hunter Ball</a>. Header Image by <a class = "small" href='https://www.freepik.com/free-photo/fresh-fruits-and-vegetables_2073964.htm'>Freepik</a></p>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			$('#menuButtonOpen').click(function() {
+				$('.nav-mobile').addClass("active");
+			});
+			$("#menuButtonClose").click(function() {
+				$(".nav-mobile").removeClass("active");
+			});
+		</script>
+	</body>
+</html>
