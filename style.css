@@ -81,6 +81,7 @@ blockquote {
 	padding: 0 150px;
 	position: sticky;
 	top: -1px;
+	0 2px 5px 0 rgba(0,0,0,0.2);
 }
 .nav a {
 	display: inline-block;
